@@ -1,0 +1,9 @@
+AuthUserFile /var/www/ebay.phobos.lan/.htpasswd
+AuthName "eSniper"
+AuthType Basic
+<Limit GET POST>
+require user aims 
+</Limit>
+
+
+DirectoryIndex index.php

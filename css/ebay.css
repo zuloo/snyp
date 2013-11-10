@@ -1,0 +1,395 @@
+div#myebaypage {
+    margin: 0 auto;
+}
+body {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: small;
+    margin-top: 0;
+}
+form {
+    margin: 0;
+    padding: 0;
+}
+a:active, a:link {
+    color: #0654BA;
+    text-decoration: none;
+}
+a:visited {
+    color: #0654BA;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.g-hdn {
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    outline: 0 none;
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    z-index: -1;
+}
+.gh-w form {
+    margin: 0;
+}
+.gh-w {
+    color: #333333;
+    font-family: "Helvetica neue",Helvetica,Arial,Sans-serif;
+    font-size: 14px;
+    line-height: 1;
+}
+.gh-w a.scnd:visited {
+    color: #6A29B9;
+    text-decoration: none;
+}
+.gh-w a.scnd {
+    color: #555555;
+    text-decoration: none;
+}
+.gh-w a.thrd, .gh-w a.thrd:visited {
+    color: #777777 !important;
+}
+.gh-w a.thrd:hover {
+    color: #777777 !important;
+    text-decoration: underline;
+}
+.gh-w a.scnd:hover {
+    color: #555555;
+    text-decoration: underline;
+}
+.iclg {
+    height: 48px;
+    width: 117px;
+}
+.gh-w .l-shad {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    float: left;
+    position: relative;
+}
+.gh-w .l-shad:before {
+    content: "";
+    position: absolute;
+    z-index: -2;
+}
+.gh-w .lftd {
+    border-radius: 3px;
+}
+.gh-w .lftd:before {
+    backface-visibility: hidden;
+    bottom: 15px;
+    box-shadow: 0 15px 6px rgba(0, 0, 0, 0.3);
+    height: 10%;
+    left: 5px;
+    transform: rotate(-4deg);
+    width: 40%;
+}
+.gh-w .btn {
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 3px 0 #DDDDDD;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+.gh-w .btn:hover {
+    background-color: #EEEEEE;
+    background-position: 0 -15px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    transition: background-position 0.1s linear 0s;
+}
+.gh-w .btn:active {
+    position: relative;
+    top: 1px;
+}
+.gh-w .btn-prim {
+    background: -moz-linear-gradient(center top , #0079BC, #00509D) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.gh-w .btn-prim:hover, .gh-w .btn-prim:active {
+    background: none repeat scroll 0 0 #00509D;
+}
+.gh-w a.btn-scnd, .gh-w a.btn-scnd:visited {
+    background: -moz-linear-gradient(center top , #45AAD6, #2386C0) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.gh-w a.btn-scnd:hover, .gh-w a.btn-scnd:focus, .gh-w a.btn-scnd:active {
+    background: none repeat scroll 0 0 #2386C0;
+}
+#gh .btn.btn-ter {
+    background: -moz-linear-gradient(center top , #FEFEFE, #F8F8F8) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #DDDDDD;
+    color: #0654BA;
+    text-decoration: none;
+}
+.gh-w .caret-dn, .gh-w .btn-ter .caret-dn {
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-top: 4px solid #0654BA;
+    content: "";
+    display: inline-block;
+    height: 0;
+    opacity: 0.8;
+    vertical-align: top;
+    width: 0;
+}
+.gh-w .caret-dn {
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.gh-w .btn-m .caret-dn {
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.gh-w .btn-split-m .caret-dn {
+    margin-left: 0;
+    margin-top: 7px;
+}
+.gh-w .dropdown .btn:active {
+    top: 0;
+}
+.gh-w .btn-split {
+    border-radius: 0 3px 3px 0;
+}
+.gh-w .dropdown > .btn-split:first-child {
+    border-radius: 3px 0 0 3px;
+}
+.gh-w .btn-split + .dropdown-toggle {
+    border-left: 1px solid #BBBBBB;
+    border-radius: 0 3px 3px 0;
+    padding: 8px 12px;
+}
+.gh-w .btn-ter + .dropdown-toggle {
+    border-left: 0 none;
+}
+.gh-w input[type="text"] {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+}
+.gh-w input[type="text"]:focus {
+    border: 1px solid #AAAAAA;
+    outline: 0 none;
+    transition: border 0.1s linear 0s, box-shadow 0.2s linear 0s;
+}
+.gh-w input[type="text"], .gh-w select {
+    border-radius: 3px;
+    color: #333333;
+    margin: 0 0 5px;
+}
+.gh-w .mi-er {
+    color: #DD1E31;
+    font-size: 0.857em;
+    font-weight: 500;
+}
+.gh-w i.icser {
+    background-position: -175px -17px;
+    float: left;
+    height: 18px;
+    margin: -2px 10px 0 0;
+    width: 18px;
+}
+.gh-hdn {
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    outline: 0 none;
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    z-index: -1;
+}
+.gh-none {
+    display: none;
+}
+#gh {
+    margin: 0;
+    min-width: 980px;
+    padding: 35px 0 10px;
+    position: relative;
+    white-space: nowrap;
+}
+.gh-w {
+    text-align: left;
+}
+.gh-w a, .gh-w a:visited {
+    color: #0654BA;
+    text-decoration: none;
+}
+.gh-w a:focus, .gh-w a:hover {
+    text-decoration: underline;
+}
+.gh-tbl {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    margin-top: 0;
+    width: 100%;
+}
+.gh-tbl, .gh-tbl2 {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.gh-td {
+    padding: 0;
+    vertical-align: bottom;
+    width: 1%;
+}
+.gh-td-s {
+    padding: 0;
+    vertical-align: middle;
+    width: 99%;
+}
+#gh-ac-box {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px 0 0 3px;
+    height: 38px;
+    padding: 0 10px 0 1px;
+    transition: border-color 0.1s linear 0s;
+}
+#gh-bid-box {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 0 0 0 0;
+    height: 38px;
+    padding: 0 10px 0 1px;
+    transition: border-color 0.1s linear 0s;
+}
+#gh-ac-box2 {
+    position: relative;
+    white-space: normal;
+}
+.gh-oldDT #gh-ac-box2 {
+    padding: 6px 0;
+}
+#gh-ac {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    box-shadow: none;
+    color: #777777;
+    font-size: 16px;
+    margin: 0;
+    outline: 0 none;
+    padding: 10px 0 9px 8px;
+    width: 100%;
+}
+#gh-ac:focus {
+    color: #000000;
+}
+#gh-ac-box.gh-ac-box-focus {
+    border-color: #AAAAAA;
+}
+#gh-ac:focus:-moz-placeholder, #gh-ac:focus::-moz-placeholder {
+    color: rgba(0, 0, 0, 0) !important;
+}
+#ghAC-show {
+    display: block;
+    position: absolute;
+    right: -30px;
+    top: 10px;
+    z-index: 1;
+}
+#gh-cat-box, #gh-bid-box{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #DDDDDD #DDDDDD #DDDDDD -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px 0;
+    height: 38px;
+    padding: 0 10px;
+}
+#gh-cat-box{
+    border-radius: 0 3px 3px 0;
+}
+#gh-cat, #gh-bid {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-width: 0;
+    font: 12px Arial;
+    height: 18px;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#gh-cat {
+    width: 160px;
+    color: #333333;
+}
+#gh-bid {
+    width: 100px;
+    color: #777777;
+    font-size: 16px;
+}
+#gh-bid:focus {
+    color: #000000;
+}
+#gh-bid-box.gh-ac-box-focus {
+    border-color: #AAAAAA;
+}
+#gh-bid:focus:-moz-placeholder, #gh-bid:focus::-moz-placeholder {
+    color: rgba(0, 0, 0, 0) !important;
+}
+
+@-moz-document url-prefix("") {
+#gh-cat {
+    border-width: 0 3px 0 0;
+}
+}
+.sz980 #gh-cat {
+    width: 160px;
+}
+@media � screen {
+#gh-cat:hover, #gh-cat:focus {
+    width: inherit;
+}
+}
+#gh-cat option {
+    height: 20px;
+}
+#gh-btn.btn {
+    box-shadow: none;
+    font-size: 16px;
+    height: 40px;
+    margin: 0 0 0 5px;
+}
+@-moz-document url-prefix("") {
+#gh-btn.btn {
+    padding-bottom: 0.57em;
+}
+}
+#gh-as {
+    font-size: 11px;
+    position: relative;
+}
+.gh-as-a {
+    display: block;
+    line-height: 13px;
+    padding: 0 10px;
+    white-space: nowrap;
+}
+#gh-as-a:hover {
+    color: #0654BA !important;
+    text-decoration: none;
+}
+div.gh-o, div.gh-eb-o {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 0 0 3px 3px;
+    box-shadow: 1px 3px 4px 0 rgba(0, 0, 0, 0.15);
+    padding: 5px 3px 10px 6px;
+    z-index: 9999;
+}
+
+}

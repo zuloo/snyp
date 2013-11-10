@@ -1,0 +1,142 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #f5f5f5;
+}
+
+#logo {
+	display: inline;
+	margin: -5px 0 0 0;
+}
+
+.logo {
+	font-size:3em;
+	letter-spacing:-0.1em;
+	line-height: 0.65em;
+}
+.logo1 {
+	color:#e43137;
+}
+.logo2 {
+	color:#0063d1;
+}
+.logo3 {
+	color:#f4ae01;
+}
+.logo4 {
+	color:#85b716;
+}
+.gh-tbl .gh-td.logo-td {
+	vertical-align: top;
+}
+
+.ueberschrift {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bold;
+	color: #333366;
+}
+A.navi {
+	color: #333366;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+A.navi:visited {
+	color: #333366;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+A.navi:hover {
+	color: #8293bf;
+	font-size: 11px;
+	font-weight: bold;
+}
+p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.Inhaltstabelle {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	vertical-align: top;
+	border: none;
+	border-collapse: collapse;
+	width: 1200px;
+}
+
+.Inhaltstabelle tr td{
+	vertical-align: middle;
+	border: none;
+	padding: 4px 10px;
+}
+.Inhaltstabelle tr th{
+	height:0;
+	padding:0;
+}
+.Inhaltstabelle tr.liner td, .Inhaltstabelle tr td[rowspan]{
+	border-bottom: 1px dashed #cccccc;
+}
+.Inhaltstabelle tr.liner td .nopad tr td{
+	vertical-align: top;
+	border: none;
+	padding: 0px;
+}
+.textnormal {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.untertitel {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+	color: #333366;
+}
+.adder input[type="text"]:focus:-moz-placeholder, .adder input[type="text"]:focus::-moz-placeholder,
+.changer input[type="text"]:focus:-moz-placeholder, .changer input[type="text"]:focus::-moz-placeholder {
+    color: rgba(0, 0, 0, 0) !important;
+}
+.changer input[type="text"], .adder input[type="text"] {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	transition: border-color 0.1s linear 0s;
+	height: 20px;
+	padding: 0 3px;
+}
+.ui-tooltip {
+	font-size:0.8em;
+	max-width: 600px;
+}
+.ui-widget {
+	font-size: 11px;
+}
+.ui-state-default.ui-color-green .ui-icon,
+.ui-state-default.ui-state-hover.ui-color-green .ui-icon,
+.ui-state-default.ui-state-hover.ui-state-active.ui-color-green .ui-icon{
+	background-image: url("jqueryui/images/ui-icons_85B716_256x240.png");
+}
+.ui-state-default.ui-color-red .ui-icon,
+.ui-state-default.ui-state-hover.ui-color-red .ui-icon,
+.ui-state-default.ui-state-hover.ui-state-active.ui-color-red .ui-icon{
+	background-image: url("jqueryui/images/ui-icons_e43137_256x240.png");
+}
+.ui-state-default.ui-color-yellow .ui-icon,
+.ui-state-default.ui-state-hover.ui-color-yellow .ui-icon,
+.ui-state-default.ui-state-hover.ui-state-active.ui-color-yellow .ui-icon{
+	background-image: url("jqueryui/images/ui-icons_f4ae01_256x240.png");
+}
+.stealth .sp-replacer,
+.stealth input[type="text"] {
+	border-color:rgba(0,0,0,0);
+	background:rgba(0,0,0,0);
+}
+.stealth .sp-dd
+{
+	color:rgba(0,0,0,0);
+}
+.grouplist input[type="text"] {
+	height: 24px;
+	padding: 3px 6px;
+}

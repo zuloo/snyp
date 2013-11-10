@@ -1,0 +1,454 @@
+.bstab-tabListCnt {
+    background: url("http://p.ebaystatic.com/aw/pics/gray_dot.gif") repeat-x scroll center bottom rgba(0, 0, 0, 0);
+    margin: 0;
+    width: 100%;
+}
+.bstab-tabHdr {
+    font-weight: bold;
+    margin: 2px 0 0 6px;
+    padding: 5px 14px 0 11px;
+}
+table.bstab-tabs {
+    margin: 15px 0 0;
+    padding: 0;
+    width: auto;
+}
+.bstab-lt {
+    float: left;
+}
+.bstab-rt {
+    float: right;
+}
+table.bstab-tabs td.bstab-dummy {
+    border-bottom: 1px solid #C0C0C0;
+    cursor: default;
+    padding-left: 2px;
+}
+table.bstab-tabs td.bstab-cntrTabGp {
+    border-bottom: 1px solid #C0C0C0;
+    width: 7px;
+}
+table.bstab-tabs td {
+    cursor: pointer;
+    text-align: left;
+    vertical-align: middle;
+}
+table.bstab-tabs td.bstab-iLft, table.bstab-tabs td.bstab-iRgt, table.bstab-tabs td.bstab-actLft, table.bstab-tabs td.bstab-actRgt, table.bstab-tabs td.bstab-aLftClr, table.bstab-tabs td.bstab-aRgtClr, table.bstab-tabs td.bstab-hvrLft, table.bstab-tabs td.bstab-hvrRgt {
+    background-image: url("http://p.ebaystatic.com/aw/pics/cmp/ui/sprtabs.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+table.bstab-tabs td.bstab-iLft {
+    border-color: #C0C0C0;
+    border-style: solid;
+    border-width: 0 0 1px;
+    margin: 0 5px 0 0;
+    padding: 0;
+    width: 5px;
+}
+table.bstab-tabs td.bstab-iRgt {
+    background-position: 100% -105px;
+    border-color: #C0C0C0;
+    border-style: solid;
+    border-width: 0 0 1px;
+}
+table.bstab-tabs td.bstab-actLft {
+    background-position: 0 -420px;
+    width: 5px;
+}
+table.bstab-tabs td.bstab-aLftClr {
+    background-position: 0 -630px;
+    width: 5px;
+}
+table.bstab-tabs td.bstab-actRgt {
+    background-position: 100% -525px;
+}
+table.bstab-tabs td.bstab-aRgtClr {
+    background-position: 100% -735px;
+}
+table.bstab-tabs td.bstab-hLft {
+    background: url("http://q.ebaystatic.com/aw/pics/globalAssets/imgContentTabLftYellow2.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+    border-color: #C0C0C0;
+    border-style: solid;
+    border-width: 0 0 1px;
+    margin: 0 5px 0 0;
+    padding: 0;
+    width: 5px;
+}
+table.bstab-tabs td.bstab-hRgt {
+    background: url("http://p.ebaystatic.com/aw/pics/globalAssets/imgContentTabRgtYellow2.gif") no-repeat scroll right top rgba(0, 0, 0, 0);
+    border-color: #C0C0C0;
+    border-style: solid;
+    border-width: 0 0 1px;
+}
+table.bstab-tabs td.bstab-actRgt a, td.bstab-aRgtClr a {
+    color: #333333;
+    cursor: default;
+    padding-bottom: 3px;
+    padding-top: 9px;
+    text-decoration: none;
+}
+table.bstab-tabs td.bstab-iRgt a:hover {
+    color: #333333;
+    cursor: pointer;
+    text-decoration: none;
+}
+table.bstab-tabs td.bstab-iRgt a {
+    color: #333333;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    text-decoration: none;
+}
+table.bstab-tabs td.bstab-iRgt a:visited {
+    color: #333333;
+    text-decoration: none;
+}
+table.bstab-tabs td.bstab-iRgt a:link {
+    color: #333333;
+    text-decoration: none;
+}
+table.bstab-tabs td.bstab-hRgt a:hover {
+    color: #333333;
+    cursor: pointer;
+    text-decoration: none;
+}
+table.bstab-tabs td.bstab-hRgt a {
+    color: #333333;
+    padding-bottom: 3px;
+    padding-top: 9px;
+    text-decoration: none;
+}
+table.bstab-tabs td.bstab-hRgt a:visited {
+    color: #333333;
+    text-decoration: none;
+}
+table.bstab-tabs td.bstab-hRgt a:link {
+    color: #333333;
+    text-decoration: none;
+}
+table.bstab-tabs td.bstab-hvrLft {
+    background-position: 0 -210px;
+}
+table.bstab-tabs td.bstab-hvrRgt {
+    background-position: 100% -315px;
+}
+.bstab-tabcontCnt {
+    clear: both;
+}
+.bstab-tabcntOuterOff {
+    background-color: #FFFFFF;
+    display: none;
+    padding: 4px 0 2px 14px;
+    position: relative;
+    top: 0;
+}
+.bstab-tabcntOuterOn {
+    display: block;
+    padding: 4px 14px 2px;
+}
+.bstab-cntFt {
+    display: block;
+}
+.bstab-tabcntInner {
+    display: block;
+    overflow: hidden;
+}
+.bstab-cntFt a {
+    float: right;
+    text-decoration: none;
+}
+.bstab-padd {
+    display: block;
+    margin-left: -5px;
+    padding: 0 8px;
+}
+.bstab-tabwidth {
+    display: block;
+    margin-left: -8px;
+    padding: 0 8px 0 13px;
+}
+.bstab-tabs a.bstab-dsb {
+    cursor: default !important;
+    text-decoration: none !important;
+}
+.pgttv table.bstab-tabs td.bstab-actRgt a, .pgttv td.bstab-aRgtClr a {
+    color: #333333;
+    cursor: default;
+    font-size: medium;
+    font-weight: bold;
+    padding-bottom: 3px;
+    padding-top: 9px;
+    text-decoration: none;
+}
+.pgttv table.bstab-tabs td.bstab-iRgt a {
+    color: #5D5D5D;
+    font-size: medium;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    text-decoration: none;
+}
+.pgttv table.bstab-tabs td.bstab-iRgt a:visited {
+    color: #5D5D5D;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+}
+.pgttv table.bstab-tabs td.bstab-iRgt a:link {
+    color: #5D5D5D;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+}
+.pgttv table.bstab-tabs td.bstab-hRgt {
+    background: url("http://p.ebaystatic.com/aw/pics/globalAssets/imgContentTabRgtYellow2.gif") no-repeat scroll right top rgba(0, 0, 0, 0);
+    border-color: #C0C0C0;
+    border-style: solid;
+    border-width: 0 0 1px;
+    color: #5D5D5D;
+    font-size: medium;
+    font-weight: bold;
+}
+.pgttv table.bstab-tabs td.bstab-iRgt a:hover {
+    color: #5D5D5D;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.pgttv table.bstab-tabs td.bstab-hRgt a:hover {
+    color: #5D5D5D;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.pgttv-tnpdm .basOlp-cn {
+    background: url("http://p.ebaystatic.com/aw/pics/globalAssets/imgOverlayCorners.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: none;
+    font-size: 0;
+    height: 5px;
+    line-height: 0;
+    position: relative;
+}
+.pgttv-tnpdm .basOlp-oly .basOlp-ctentbox .basOlp-n {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 1px solid #999999;
+    height: 0;
+    margin: 0;
+}
+.pgttv-tnpdm .basOlp-oly .basOlp-s .basOlp-cn .basOlp-cn {
+    background-position: 0 -10px;
+    display: block;
+    height: 4px;
+    margin-bottom: -1px;
+    margin-left: -5px;
+    padding-bottom: 1px;
+    width: 5px;
+}
+.pgttv-tnpdm .basOlp-oly .basOlp-s .basOlp-cn {
+    background-position: 100% -30px;
+    display: block;
+    height: 4px;
+    margin-bottom: -1px;
+    margin-right: -5px;
+    padding-bottom: 1px;
+}
+.pgttv-tnpdm .basOlp-oly .basOlp-sdowbox {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 8;
+}
+.pgttv-tnpdm .basOlp-scn {
+    background: url("http://q.ebaystatic.com/aw/pics/cmp/ui/imgOverlayShadeCorners.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: none;
+    font-size: 0;
+    height: 5px;
+    line-height: 0;
+    position: relative;
+}
+.pgttv-tnpdm .basOlp-oly .basOlp-sdowbox .basOlp-s {
+    background: url("http://q.ebaystatic.com/aw/pics/cmp/ui/imgOverlayShadow_50x50.png") repeat scroll 0 center rgba(0, 0, 0, 0);
+    height: 0;
+    margin: 0 5px;
+}
+.pgttv-tnpdm .basOlp-oly .basOlp-sdowbox .basOlp-n {
+    background: url("http://q.ebaystatic.com/aw/pics/cmp/ui/imgOverlayShadow_50x50.png") repeat scroll 0 center rgba(0, 0, 0, 0);
+    height: 0;
+    margin: 0 5px;
+}
+.pgttv .bstab-padd {
+    display: block;
+    margin-left: -5px;
+    padding: 0 9px 0 10px;
+}
+.pgttv-htr .olp-tl {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.pgttv-htr .olp-tr {
+    background-position: -354px 0;
+    background-repeat: repeat-y;
+}
+.pgttv-htr .olp-tl p {
+    border-left-width: 1px;
+    margin: 0 -10px 0 0;
+    position: relative;
+}
+.m-set {
+    padding: 20px 7px 0 0;
+}
+.m-tn-a {
+    color: #002398 !important;
+    cursor: pointer;
+}
+.m-tn_txt {
+    color: #333333;
+    font-family: verdana;
+    font-size: x-small;
+}
+#GlobalNavigation.gnDS2 td.bstab-actLft, #GlobalNavigation.gnDS2 td.bstab-iLft {
+    border: medium none;
+    width: 0;
+}
+#GlobalNavigation.gnDS2 td.bstab-actRgt, #GlobalNavigation.gnDS2 td.bstab-iRgt {
+    background-image: none;
+    background-position: 100% -1475px;
+    padding: 0 1px 0 5px;
+}
+#GlobalNavigation.gnDS2 td.bstab-actRgt a {
+    color: #333333;
+    font: 1em "Helvetica Neue",Helvetica,Verdana,Sans-serif;
+    padding: 7px 14px;
+    text-decoration: none;
+}
+#GlobalNavigation.gnDS2 td.bstab-iRgt a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-left: 1px solid #F8F8F8;
+    border-right: 1px solid #F8F8F8;
+    border-top: 1px solid #F8F8F8;
+    color: #0654BA !important;
+    font: 1em "Helvetica Neue",Helvetica,Verdana,Sans-serif;
+    padding: 7px 14px;
+    text-decoration: none;
+}
+#GlobalNavigation.gnDS2 td.bstab-iRgt a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    background-position: 0 -231px;
+    border-left: 1px solid #CCCCCC;
+    border-radius: 3px 3px 0 0;
+    border-right: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+}
+#GlobalNavigation.gnDS2 td.bstab-actRgt a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #CCCCCC #CCCCCC #F8F8F8;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: bold;
+}
+#GlobalNavigation.gnDS2 td.bstab-iRgt {
+    border-bottom: 1px solid #CCCCCC;
+}
+#GlobalNavigation.gnDS2 td.bstab-iRgt a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-left: 1px solid #F8F8F8;
+    border-right: 1px solid #F8F8F8;
+    border-top: 1px solid #F8F8F8;
+    font-weight: normal;
+}
+#GlobalNavigation.gnDS2 td.bstab-iRgt a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    background-position: 0 -231px;
+    border-left: 1px solid #999999;
+    border-radius: 3px 3px 0 0;
+    border-right: 1px solid #999999;
+    border-top: 1px solid #999999;
+    color: #008DC8;
+}
+#GlobalNavigation.gnDS2 table.bstab-tabs {
+    margin-top: 5px;
+}
+#GlobalNavigation.gnDS2 div.bstab-tabListCnt td[align="right"] {
+    width: 47%;
+}
+#GlobalNavigation.gnDS2.myOptm td.bstab-actRgt a, #GlobalNavigation.gnDS2.myOptm td.bstab-iRgt a {
+    padding: 4px 14px;
+}
+#GlobalNavigation.gnDS2.myOptm .th-tih {
+    display: inline;
+    font-family: "Helvetica Neue",Helvetica,Verdana,Sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+}
+#GlobalNavigation.gnDS2.myOptm .bstab-tabcntOuterOn, #GlobalNavigation.gnDS2.myOptm .bstab-tabcntOuterOff {
+    padding-bottom: 0;
+    padding-top: 2px;
+}
+#GlobalNavigation.gnDS2.myOptm .th-a2px {
+    padding-bottom: 0;
+}
+#GlobalNavigation.gnDS2.myOptm table.bstab-tabs {
+    margin-top: 1px;
+}
+#GlobalNavigation.gnDS2.myOptm .bstab-cntrTabGp {
+    box-shadow: 0 -4px 1px -5px #888888 inset;
+}
+#GlobalNavigation.gnDS2.myOptm .bstab-dummy {
+    box-shadow: 0 -4px 1px -5px #888888 inset;
+}
+#GlobalNavigation.gnDS2.myOptm .bstab-padd {
+    border-radius: 3px 3px 0 0;
+}
+#GlobalNavigation.gnDS2.myOptm a.m-tn-a {
+    color: #0654BA !important;
+    font-weight: bold;
+}
+#GlobalNavigation.gnDS2.myOptm a.m-tn-a:hover {
+    text-decoration: underline;
+}
+#GlobalNavigation.gnDS2.myOptm a.m-tn-a:visited {
+    color: #6A29B9;
+}
+#GlobalNavigation.gnDS2 a.m-tn-a {
+    color: #0654BA !important;
+    font-weight: bold;
+}
+#GlobalNavigation.gnDS2 a.m-tn-a:hover {
+    text-decoration: underline;
+}
+#GlobalNavigation.gnDS2 a.m-tn-a:visited {
+    color: #6A29B9;
+}
+#GlobalNavigation.gnDS2.myOptm .th-grdn a, #GlobalNavigation.gnDS2.myOptm .th-grdn a:link, #GlobalNavigation.gnDS2.myOptm .th-grdn a:active {
+    color: #0654BA;
+}
+#GlobalNavigation.gnDS2.myOptm .th-grdn a:hover {
+    text-decoration: underline;
+}
+#GlobalNavigation.gnDS2.myOptm .th-grdn a:visited {
+    color: #6A29B9;
+}
+#GlobalNavigation.gnDS2.myOptm .mbg a {
+    color: #0654BA;
+}
+#GlobalNavigation.gnDS2.myOptm .mbg a:hover {
+    text-decoration: underline;
+}
+#GlobalNavigation.gnDS2.myOptm .mbg a:visited {
+    color: #6A29B9;
+}
+#GlobalNavigation.gnDS2 .mbg a {
+    color: #0654BA;
+}
+#GlobalNavigation.gnDS2 .mbg a:hover {
+    text-decoration: underline;
+}
+#GlobalNavigation.gnDS2 .mbg a:visited {
+    color: #6A29B9;
+}
