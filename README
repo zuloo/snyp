@@ -1,7 +1,7 @@
 For more information, see <http://esniper.sf.net/>.
 
 Es werden nicht alle Features von esniper genutzt, einige wurden Aufgrund der Verwaltung 
-über PHP abgebildet.
+Ã¼ber PHP abgebildet.
 
 !!!You can use the esniper file that is provided in the actual release or compile the newest 
 version from the CVS.
@@ -21,19 +21,19 @@ esniperstart.sh.
 
 ------------------------------------------------------------------------------------------------------
 
-Schritte für die Installation:
+Schritte fï¿½r die Installation:
 
-1. Dateien in einem durch z.B. Apache gehosteten Ordner kopieren und setperms.sh in dem Ordner ausführen.
+1. Dateien in einem durch z.B. Apache gehosteten Ordner kopieren und setperms.sh in dem Ordner ausfï¿½hren.
 2. Datenbank in MySQL anlegen und die esniper.sql importieren.
-3. Einen User in MySQL für die Datenbank anlegen (oder den Root-User nutzen)
+3. Einen User in MySQL fï¿½r die Datenbank anlegen (oder den Root-User nutzen)
 4. In der Datei config.inc die Einstellungen anpassen.
    !Es muss auf die Dateien refereneziert werden: z.B./usr/bin/esniper   
 5. Die reload.php in die crontab eintragen und am besten jede Stunde laufen lassen.
-   Die reload.php prüft, ob noch alle Snipe-Prozesse laufen, bzw. beendet fehlerhafte. Sie kann auch beim
-   Booten ausgeführt werden.
-6. Schön aus dem Web snipern.
+   Die reload.php prï¿½ft, ob noch alle Snipe-Prozesse laufen, bzw. beendet fehlerhafte. Sie kann auch beim
+   Booten ausgefï¿½hrt werden.
+6. Schï¿½n aus dem Web snipern.
 
-optional: Wenn die Seite aus dem Web erreichbar ist, sollte eine Sicherung mit .htaccess über Apache erfolgen.
+optional: Wenn die Seite aus dem Web erreichbar ist, sollte eine Sicherung mit .htaccess ï¿½ber Apache erfolgen.
 
 
 
