@@ -30,7 +30,7 @@
 require 'language.php';
 
 function html_Gruppenliste($artnr,$db) {
-//Baut eine Auswahlliste für die Gruppen auf einem Artikel zusammen
+//Baut eine Auswahlliste fÂ¸r die Gruppen auf einem Artikel zusammen
     $sql = "SELECT gruppe FROM snipe WHERE artnr = ".$artnr;
     $snipe = $db->get_row($sql);
     $temp = "<select name=\"gruppe\" size=\"1\">";
@@ -55,7 +55,7 @@ function html_Gruppenliste($artnr,$db) {
 }
 
 function html_GruppenlisteNormal($gruppeID,$db) {
-//Baut eine Auswahlliste für die Gruppen auf, ohne "keine" und "Alle"
+//Baut eine Auswahlliste fÂ¸r die Gruppen auf, ohne "keine" und "Alle"
     $temp = "<select name=\"gruppe\" size=\"1\">";
     $sql = "SELECT * FROM gruppen";
     $gruppenliste = $db->get_results($sql);
@@ -73,7 +73,7 @@ function html_GruppenlisteNormal($gruppeID,$db) {
 }
 
 function html_GruppenlisteNeuerArt($db) {
-//Baut eine Auswahlliste für die Gruppen auf, mit "keine"
+//Baut eine Auswahlliste fÂ¸r die Gruppen auf, mit "keine"
     $temp = ""; //"<select name=\"gruppe\" size=\"1\">";
 		$temp .= "<option value=\"0\" selected=\"selected\">".$GLOBALS["tKeine"]."</option>";
 		$gruppeID = 0;
@@ -94,7 +94,7 @@ function html_GruppenlisteNeuerArt($db) {
 }
 
 function html_GruppenFilternListe($gruppeID,$db) {
-//Baut eine Auswahlliste für die Gruppen zusammen
+//Baut eine Auswahlliste fÂ¸r die Gruppen zusammen
     $temp = "<select name=\"filtergruppe\" size=\"1\">";
     if ($gruppeID == -1 || empty($gruppeID)) {
     	$temp .= "<option value=\"-1\" selected=\"selected\">".$GLOBALS["tAlles"]."</option>";
@@ -163,7 +163,7 @@ function html_snipestatus($code) {
 }
 
 function html_countdown($artnr,$zaehler, $datestr) {
-//Fügt für einen Artikel die HTML und JavaScript Daten für den Counter ein.
+//FÂ¸gt fÂ¸r einen Artikel die HTML und JavaScript Daten fÂ¸r den Counter ein.
 	$temp = "<script language=\"JavaScript\" type=\"text/javascript\">";
 	$temp .= "artliste[".$zaehler."] = new Array();";
 	$temp .= "artliste[".$zaehler."][0] =".$artnr.";";

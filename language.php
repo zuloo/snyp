@@ -32,16 +32,16 @@ require 'config.inc';
 switch(LANG) {
 	case 1:
 	//Index Liste
-	$GLOBALS["tSnipeStatusArray"] = array('sniping...','Auktion gewonnen','überboten','Gruppe hat gewonnen','keine Ausgabe zugeordnet');
+	$GLOBALS["tSnipeStatusArray"] = array('sniping...','Auktion gewonnen','Ã¼berboten','Gruppe hat gewonnen','keine Ausgabe zugeordnet');
 	$GLOBALS["tSnipeListSummaryArray"] = array('laufend','gewonnen','verloren');
 	$GLOBALS["tKeine"] = 'Keine Gruppe';
 	$GLOBALS["tAlles"] = 'Alles';
-	$GLOBALS["tMenueAltArray"] = array('Reload','Gruppen verwalten','neuen Artikel eingeben','gewonnene und verlorene Artikel löschen');
+	$GLOBALS["tMenueAltArray"] = array('Reload','Gruppen verwalten','neuen Artikel eingeben','gewonnene und verlorene Artikel lÃ¶schen');
 	$GLOBALS["tArtikelNr"] = 'Artikelnummer';
 	$GLOBALS["tSnipeStatus"] = 'Snipestatus';
 	$GLOBALS["tBildTableTopic"] = 'Bild';
 	$GLOBALS["tProzessStatus"] = 'Prozessstatus';
-	$GLOBALS["tDbLeer"] = 'keine Einträge in der Datenbank';
+	$GLOBALS["tDbLeer"] = 'keine EintrÃ¤ge in der Datenbank';
 	$GLOBALS["tNoProcess"] = 'Kein Prozess!!!';
 	//Gruppennotizen
 	$GLOBALS["ueGruppennotizen"] = 'Gruppennotizen';
@@ -54,19 +54,19 @@ switch(LANG) {
 	//Gruppe verwalten
 	$GLOBALS["ueGruppenverwaltung"] = 'Gruppenverwaltung';
 	$GLOBALS["tGruppeErstellt"] = 'wurde erstellt';
-	$GLOBALS["tGruppeWaehlen"] = 'Bitte eine Gruppe wählen';
+	$GLOBALS["tGruppeWaehlen"] = 'Bitte eine Gruppe wÃ¤hlen';
 	$GLOBALS["ueGruppeAnlegen"] = 'Gruppe anlegen';
 	$GLOBALS["ueGruppenName"] = 'Gruppenname';
 	$GLOBALS["ueGruppenNotizen"] = 'Notizen';
 	$GLOBALS["bGruppeErstellen"] = 'erstellen';
-	$GLOBALS["ueGruppeLoeschen"] = 'Gruppe löschen';
-	$GLOBALS["bGruppeLoeschen"] = 'löschen';
+	$GLOBALS["ueGruppeLoeschen"] = 'Gruppe lË†schen';
+	$GLOBALS["bGruppeLoeschen"] = 'lÃ¶schen';
 	
 	//neuer Artikel
 	$GLOBALS["ueNeuerArtikel"] = 'neuer Artikel';
 	$GLOBALS["tArtikelDaten"] = 'Artikeldaten';
 	$GLOBALS["tAuktionsNr"] = 'Auktionsnnummer';
-	$GLOBALS["tHoechstgebot"] = 'Höchstgebot';
+	$GLOBALS["tHoechstgebot"] = 'HÃ¶chstgebot';
 	
 	$GLOBALS["pMenue"] = "menue-d.gif";
 	break;
