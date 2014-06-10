@@ -27,7 +27,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-require 'config.inc';
+require_once 'config.inc';
 
 switch(LANG) {
 	case 1:

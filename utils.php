@@ -26,12 +26,13 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-require 'config.inc';
-require 'ez_sql.php';
-require 'phpLinkCheck.php';
+require_once 'config.inc';
+require_once 'ez_sql.php';
+require_once 'phpLinkCheck.php';
 
 global $db;
 $db = new db(EZSQL_DB_USER, EZSQL_DB_PASSWORD, EZSQL_DB_NAME, EZSQL_DB_HOST);
+if(!$db->alive()) die();
 
 function genAuctionfile($artnr,$bid) {
     $fn=TMP_FOLDER."/".$artnr.".ebaysnipe";

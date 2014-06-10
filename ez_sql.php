@@ -39,6 +39,7 @@
 		var $col_info;
 		var $debug_called;
 		var $vardump_called;
+        var $dbh = false;
 
 		// ==================================================================
 		//	DB Constructor - connects to the server and selects a database
@@ -66,8 +67,20 @@
 			if ( !@mysql_select_db($db,$this->dbh))
 			{
 				$this->print_error("<ol><b>Error selecting database <u>$db</u>!</b><li>Are you sure it exists?<li>Are you sure there is a valid database connection?</ol>");
+                return false;
 			}
+            return true;
 		}
+
+        // ==================================================================
+		//	Check if Database connection is alive
+
+        function alive() {
+            if ( ! $this->dbh ) return false;
+            return true;
+        }
+
+
 
 		// ====================================================================
 		//	Format a string correctly for safe insert under all PHP conditions
@@ -85,6 +98,8 @@
 			
 			// All erros go to the global error array $EZSQL_ERROR..
 			global $EZSQL_ERROR;
+
+            $error_no = 0;
 
 			// If no special error string then use mysql default..
 			if ( !$str )
