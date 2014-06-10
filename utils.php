@@ -147,7 +147,7 @@ function getWatchlist($db) {
 
 function auktionBeendet($artnr) {
     $fn=TMP_FOLDER."/".$artnr.".ebaysnipelog";
-    if (file_exists($fn)) {
+    if (file_exists($fn) && filesize ($fn) > 0) {
 		$fp=fopen($fn,"r");
 		$text=fread($fp, filesize ($fn));
 		fclose($fp);
