@@ -107,7 +107,7 @@ function getWatchlist($db) {
 		exec(PATH_TO_ESNIPER." -m -c ".PATH_TO_ESNIPERCONFIG, $output, $status);
 		$articles = null;
 		$a= 0;
-		for($i=0; $i < count($output); $i+=8){
+		for($i=0; $i+7 < count($output); $i+=8){
 				if(preg_match("/^Time[ ]left:[[:blank:]]+([0-9]+d)?[ ]?([0-9]+h)?[ ]?([0-9]+m)?[ ]?([0-9]+s)?[ ]left$/",$output[$i+3],$match)){
 						$articles[$a] = new stdClass();
 						$articles[$a]->endtime = calcEndTime(array_slice($match,1));
