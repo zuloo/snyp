@@ -156,31 +156,31 @@ $( document ).ready(function() {
 		<?php
 		$sql = "SELECT * FROM gruppen";
 		$gruppen = $db->get_results($sql);
-        if($gruppen) {
-            foreach($gruppen as $gruppe){
-            ?>
-            <tr class="mainrow">
-                    <td>
-                            <form class="changer">
-                                    <table class="Inhaltstabelle">
-                                            <tr class="liner stealth">
-                                                    <td style="width:51px;">
-                                                            <input type="color" name="farbe" value="<?=$gruppe->farbe?>" oldvalue="<?=$gruppe->farbe?>" />
-                                                    </td>
-                                                    <td style="width:156px;"><input type="text" name="name" value="<?=$gruppe->name?>" oldvalue="<?=$gruppe->name?>" placeholder="Name ..." style="width:150px;" /></td>
-                                                    <td><input type="text" name="notizen" value="<?=$gruppe->notizen?>" oldvalue="<?=$gruppe->notizen?>" placeholder="Notizen ..." style="width:100%;" /></td>
-                                                    <td style="width:160px;"><div class="switch-wrapper"><input name="nureins" type="checkbox" value="<?=$gruppe->nureins?>" oldvalue="<?=$gruppe->nureins?>" <?=($gruppe->nureins == 1)?"checked='checked'":""?>/></div></td>
-                                                    <td style="width:60px; text-align:right;">
-                                                                    <input type="hidden" value="<?=$gruppe->gruppeID?>" name="gid" />
-                                                                    <button style="display: none" class="button-change ui-color-green editorbuttons" title="Ändern">Ändern</button>
-                                                                    <button style="display: none" class="button-cancel ui-color-red editorbuttons" title="Abbrechen">Abbrechen</button>
-                                                                    <button class="button-delete ui-color-red stdbuttons" title="Löschen">Löschen</button>
-                                                    </td>
-                                            </tr>
-                                    </table>
-                            </form>
-                    </td>
-            </tr>
-            <?php }
-        }?>
+		if($gruppen) {
+			foreach($gruppen as $gruppe){
+			?>
+			<tr class="mainrow">
+					<td>
+							<form class="changer">
+									<table class="Inhaltstabelle">
+											<tr class="liner stealth">
+													<td style="width:51px;">
+															<input type="color" name="farbe" value="<?=$gruppe->farbe?>" oldvalue="<?=$gruppe->farbe?>" />
+													</td>
+													<td style="width:156px;"><input type="text" name="name" value="<?=$gruppe->name?>" oldvalue="<?=$gruppe->name?>" placeholder="Name ..." style="width:150px;" /></td>
+													<td><input type="text" name="notizen" value="<?=$gruppe->notizen?>" oldvalue="<?=$gruppe->notizen?>" placeholder="Notizen ..." style="width:100%;" /></td>
+													<td style="width:160px;"><div class="switch-wrapper"><input name="nureins" type="checkbox" value="<?=$gruppe->nureins?>" oldvalue="<?=$gruppe->nureins?>" <?=($gruppe->nureins == 1)?"checked='checked'":""?>/></div></td>
+													<td style="width:60px; text-align:right;">
+																	<input type="hidden" value="<?=$gruppe->gruppeID?>" name="gid" />
+																	<button style="display: none" class="button-change ui-color-green editorbuttons" title="Ändern">Ändern</button>
+																	<button style="display: none" class="button-cancel ui-color-red editorbuttons" title="Abbrechen">Abbrechen</button>
+																	<button class="button-delete ui-color-red stdbuttons" title="Löschen">Löschen</button>
+													</td>
+											</tr>
+									</table>
+							</form>
+					</td>
+			</tr>
+			<?php }
+		}?>
 </table>
