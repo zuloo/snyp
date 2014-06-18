@@ -244,16 +244,18 @@ function killSniper($artnr,$db) {
 
 function getPids() {
     #pidof was removed on several distros
-    #$output = shell_exec("pidof -x esniperstart.sh");
-    #if ($output != "\n") {
-    #	$pids = explode(" ",rtrim($output));
-    #}
-
-    $output = trim(shell_exec('ps -ef | grep esniperstart.sh'));
-    if($output == '') return array();
-
-    preg_match_all('#[^ ]+\s+(\d+)\s+\d+\s+\d+\s+[^ ]+\s+[^ ]+\s+\d{2}:\d{2}:\d{2}\s/bin/sh ./esniperstart.sh#', $output, $match);
-    return $match[1];
+    if(!empty(shell_exec("which pidof")){
+        $output = shell_exec("pidof -x esniperstart.sh");
+        if ($output != "\n") {
+            $pids = explode(" ",rtrim($output));
+    	}
+    	return $pids;
+    }else{    $output = trim(shell_exec('ps -ef | grep esniperstart.sh'));
+        if($output == '') return array();
+ 
+        preg_match_all('#[^ ]+\s+(\d+)\s+\d+\s+\d+\s+[^ ]+\s+[^ ]+\s+\d{2}:\d{2}:\d{2}\s/bin/sh ./esniperstart.sh#', $output, $match);
+        return $match[1];
+    }
 }
 
 
