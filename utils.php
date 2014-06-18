@@ -26,12 +26,13 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-require 'config.inc';
-require 'ez_sql.php';
-require 'phpLinkCheck.php';
+require_once 'config.inc';
+require_once 'ez_sql.php';
+require_once 'phpLinkCheck.php';
 
 global $db;
 $db = new db(EZSQL_DB_USER, EZSQL_DB_PASSWORD, EZSQL_DB_NAME, EZSQL_DB_HOST);
+if(!$db->alive()) die();
 
 function genAuctionfile($artnr,$bid) {
     $fn=TMP_FOLDER."/".$artnr.".ebaysnipe";
@@ -106,7 +107,7 @@ function getWatchlist($db) {
 		exec(PATH_TO_ESNIPER." -m -c ".PATH_TO_ESNIPERCONFIG, $output, $status);
 		$articles = null;
 		$a= 0;
-		for($i=0; $i < count($output); $i+=8){
+		for($i=0; $i+7 < count($output); $i+=8){
 				if(preg_match("/^Time[ ]left:[[:blank:]]+([0-9]+d)?[ ]?([0-9]+h)?[ ]?([0-9]+m)?[ ]?([0-9]+s)?[ ]left$/",$output[$i+3],$match)){
 						$articles[$a] = new stdClass();
 						$articles[$a]->endtime = calcEndTime(array_slice($match,1));
@@ -146,7 +147,7 @@ function getWatchlist($db) {
 
 function auktionBeendet($artnr) {
     $fn=TMP_FOLDER."/".$artnr.".ebaysnipelog";
-    if (file_exists($fn)) {
+    if (file_exists($fn) && filesize ($fn) > 0) {
 		$fp=fopen($fn,"r");
 		$text=fread($fp, filesize ($fn));
 		fclose($fp);
