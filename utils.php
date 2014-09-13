@@ -244,7 +244,8 @@ function killSniper($artnr,$db) {
 
 function getPids() {
     #pidof was removed on several distros
-    if(!empty(shell_exec("which pidof")){
+    $pidof = shell_exec("which pidof");
+    if(!empty($pidof)){
         $output = shell_exec("pidof -x esniperstart.sh");
         if ($output != "\n") {
             $pids = explode(" ",rtrim($output));
