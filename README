@@ -10,6 +10,14 @@ version from the CVS.
 
 -----------------------------------------------------------------------------------------------------
 
+!!! ATTENTION - the PHP-Scripts are based on an early implementation by the original author
+of esniper. There are plenty of vulnerabilities in that code. The script is intended to run
+on your private network. DO NOT ALLOW PUBLIC ACCESS! I intend to fix these vulnerabilities,
+but have not found the time to do so, yet. If you want to fix them yourself please share a
+pull request.
+
+-----------------------------------------------------------------------------------------------------
+
 Requirements:
 Apache, PHP, MySQL, esniper, pstree, grep
 
